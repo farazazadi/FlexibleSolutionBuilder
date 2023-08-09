@@ -54,13 +54,13 @@ By default, the created solution will include 10 projects, and its structure wil
 		<td>[SolutionName].Tests.Unit</td>
 		<td>xUnit Test Project</td>
 		<td>Application</td>
-		<td>FluentAssertions, Moq</td>
+		<td>FluentAssertions, NSubstitute</td>
 	</tr>
 	<tr>
 		<td>[SolutionName].Tests.Integration</td>
 		<td>xUnit Test Project</td>
 		<td>Tests.Common, Infrastructure, WebApi</td>
-		<td>FluentAssertions, Moq, Respawn</td>
+		<td>FluentAssertions, NSubstitute, Respawn</td>
 	</tr>
 	<tr>
 		<td>[SolutionName].Tests.EndToEnd</td>

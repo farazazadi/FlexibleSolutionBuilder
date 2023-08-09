@@ -93,7 +93,7 @@ $UnitTest = [Project]@{
     Name          = "Unit"
     Type          = [ProjectType]::Test
     References    = $Application
-    NugetPackages = "FluentAssertions", "Moq"
+    NugetPackages = "FluentAssertions", "NSubstitute"
     ParentFolder  = "Tests"
 }
 
@@ -101,7 +101,7 @@ $IntegrationTest = [Project]@{
     Name          = "Integration"
     Type          = [ProjectType]::Test
     References    = $CommonTest, $Infrastructure, $WebApi
-    NugetPackages = "FluentAssertions", "Moq", "Respawn"
+    NugetPackages = "FluentAssertions", "NSubstitute", "Respawn"
     ParentFolder  = "Tests"
 }
 
